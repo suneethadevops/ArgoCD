@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: cloudintelugu/ccitimage:v3
+          image: learncloudcomputing/ccitrepo:v1
           ports:
             - containerPort: 80
