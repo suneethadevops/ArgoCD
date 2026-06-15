@@ -6,7 +6,7 @@ metadata:
   name: ccit-app
   namespace: default
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: ccit-app
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: learncloudcomputing/ccitrepo:v2
+          image: learncloudcomputing/ccitrepo:v1
           ports:
             - containerPort: 80
